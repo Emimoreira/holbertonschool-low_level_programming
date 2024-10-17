@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc "$MYVAR" -o fun_var
+gcc "$CFILE" -o fun_var
