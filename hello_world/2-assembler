@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc "$MYVAR" -o fun_var
