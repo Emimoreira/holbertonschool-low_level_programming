@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - deletrea el abcdario
+ * Return: 0
+ */
+int main(void)
+{
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (lettter != 'q' && letter != 'e')
+		{	
+			putchar(letter);
+		}
+	}
+
+       	putchar('\n');
+
+       	return (0);
+}
