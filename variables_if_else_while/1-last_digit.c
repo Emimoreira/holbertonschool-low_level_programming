@@ -12,11 +12,17 @@ int main(void)
 
 	int (last_digit = n% 10 );
         
-	if (last_digit > 5) {
+
+	if (last_digit > 5)
+       	{
 		printf("la cadena y es mayor que 5\n");
-	} else if (last_digit == 0) {
+	}
+       	else if (last_digit == 0)
+       	{
 	        printf("la cadena y es 0\n");
-	} else {
+	}
+       	else
+       	{
 		printf("la cadeba y es menor que 6 y no 0\n");
 	}
 
