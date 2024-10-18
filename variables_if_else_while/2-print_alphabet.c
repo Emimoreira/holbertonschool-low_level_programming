@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * funcion_name - deletrea el abcdario
+ * Return: 0
+ */
 int main(void)
 {
 	char letter;
