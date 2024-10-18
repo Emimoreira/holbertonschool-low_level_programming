@@ -10,12 +10,12 @@ int main(void)
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		if (letter != 'q' && letter != 'e')
-		{	
+		{
 			putchar(letter);
 		}
 	}
 
-       	putchar('\n');
+	putchar('\n');
 
-       	return (0);
+	return (0);
 }
