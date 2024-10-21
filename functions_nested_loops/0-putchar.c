@@ -3,7 +3,7 @@
  *main - programa que imprime _putchar
  *Return: 0
  */ 
-int main(main)
+int main(void)
 {
 	putchar('_');
 	putchar('p');
