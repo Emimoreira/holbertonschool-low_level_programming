@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * 6-print_numberz.c - cuenta todo lo que tenga solo un digito de base 10
+ * main - cuenta todo lo que tenga solo un digito de base 10
  *
  *Return: 0
  */
