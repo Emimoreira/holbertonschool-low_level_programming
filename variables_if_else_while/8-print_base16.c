@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - sirve para printear en minuscula todo hasta base 16
+ * main -  imprime todos los números de base 16 en minúsculas, seguidos de una nueva línea.
  * Return : 0
  */
-int main(void)
+int main (void)
 {
 	int i;
 
