@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -  imprime todos los números de base 16 en minúscul
- * Return : 0
+ * main - imprime todos los números de base 16 en minúscul
+ * Return: 0
  */
 int main(void)
 {
