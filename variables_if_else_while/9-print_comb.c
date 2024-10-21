@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - imprime todas las combinaciones posibles de números de un solo dígito.
+ * main - imprime todas las combinaciones posibles números de un solo dígi
  *Return: 0
  */
 int main(void)
@@ -13,11 +13,12 @@ int main(void)
 
 		if (i < 9)
 
-	       	{
-			putchar(',');
+	{
+		putchar(',');
 
-			putchar(' ');
-		}
+		putchar(' ');
+	}
+
 	}
 
 	putchar('\n');
