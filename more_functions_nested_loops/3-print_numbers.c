@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_numbers - funcion que muestra 
+*print_numbers - funcion que muestra
 *0 a 9
 *
 *Return: returns nothing
