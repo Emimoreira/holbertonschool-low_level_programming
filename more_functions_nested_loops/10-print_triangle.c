@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * print_triangle - print a triangle aligned right, using '#'
  * @size: Size of triangle
