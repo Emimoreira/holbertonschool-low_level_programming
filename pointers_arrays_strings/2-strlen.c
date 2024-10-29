@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strlen - retorna lenguaje 
+ *_strlen - retorna lenguaje
  * @s: string
  *Return: returns lenght;
  */
