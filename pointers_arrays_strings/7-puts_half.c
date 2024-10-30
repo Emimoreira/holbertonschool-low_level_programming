@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*puts_half - fiumba hace cosas inter-santes 
+*puts_half - fiumba hace cosas inter-santes
 *@str: string
 *Return:void
 */
