@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *print_array - print n element of array
 *@a: array
@@ -14,7 +15,5 @@ if (inc != n - 1)
 printf("%d, ", a[inc]);
 else
 printf("%d", a[inc]);
-
 }
-printf("\n");
 }
