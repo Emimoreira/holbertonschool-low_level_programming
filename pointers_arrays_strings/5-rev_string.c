@@ -1,44 +1,29 @@
 #include "main.h"
+#include <stdio.h>
+/** * rev_string - Esta función imprime un inversor de cadena 
+ * * *@s: este es el puntero que apunta a una cadena
+ */
 
-/**
-*rev_string - Invierte una cadena
-*@s: Cadena para invertir
-*Devolución: Nada
-*/
 void rev_string(char *s)
 {
-int i = 0, length;
-length = _strlen(s) - 1;
-while (length > i)
-{
-swap_char(s + length, s + i);
-i++;
-length--;
-}
-}
-/**
- *_strlen - devuelve la longitud de una cadena
- * @s: cadena
- *Devolución: longitud de la devolución;
- */
+	int a, len;
 
-int _strlen(char *s)
-{
-int count, inc;
-inc = 0;
-for (count = 0; s[count] != '\0'; count++)
-inc++;
+	char *begin, *end = s;
 
-return (inc);
-}
-/**
- *_strlen - devuelve la longitud de una cadena
- * @s: cadena
- *Devolución: longitud de la devolución;
- */
-void swap_char(char *a, char *b)
-{
-char tmp = *a;
-*a = *b;
-*b = tmp;
+	for (a = 0; s[a] != '\0' && s[a + 1] != '\0'; a++)
+	{
+		end++;
+	}
+	len = a + 1;
+	begin = s;
+	for (a = 0; a < len / 2; a++)
+	{
+		char x;
+		x = *end;
+		*end = *begin;
+		*begin = x;
+		begin++;
+		end--;
+	}
+	end[len + 1] = '\0';
 }
