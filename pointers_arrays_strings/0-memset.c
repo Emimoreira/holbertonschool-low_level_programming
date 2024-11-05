@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_memset - The _memset() 
+*_memset - The _memset()
 *@s:s
 *@b:b
 *@n:n
