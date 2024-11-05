@@ -1,9 +1,9 @@
 #include "main.h"
 /**
 *_strstr - busca la aparicion de la primer cadena
-*@haystack: string 
-*@needle: haystack
-*Return: '\0'
+*@haystack:string 
+*@needle:haystack
+*Return:'\0'
 */
 
 char *_strstr(char *haystack, char *needle)
