@@ -3,6 +3,7 @@
 * _strpbrk - busca el primer caracter de accept
 * @s:s
 * @a:a
+* @accept: accept
 *Return: nada
 */
 
