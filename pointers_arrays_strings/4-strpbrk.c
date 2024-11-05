@@ -6,20 +6,19 @@
 *Return: nada
 */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
-while (*s)
+	int i;
+
+	while (*s)
 	{
-	char *a = accept;
-		while (*a)
+		for (i = 0; accept[i]; i++)
 		{
-			if (*s == *a)
-			{
-				return s;
-			}
-			a++
+			if (accept[i] == *s)
+				return (s);
 		}
-		s++
+		s++;
 	}
-	return NULL
+
+	return ('\0');
 }
