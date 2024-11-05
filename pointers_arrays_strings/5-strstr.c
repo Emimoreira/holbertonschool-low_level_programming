@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *_strstr - busca la aparicion de la primer cadena
-*@haystack:string 
+*@haystack:string
 *@needle:haystack
 *Return:'\0'
 */
