@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * print_diagsums - printea una suma 
- * @a: pointer 
+ * print_diagsums - printea una suma
+ * @a: pointer
  * @size: diagonal add
  */
 
