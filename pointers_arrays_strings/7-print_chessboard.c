@@ -1,35 +1,25 @@
+#include "holberton.h"
 #include <stdio.h>
-#include "main.h"
-
-/*print_chessboard - hace un tablero de ajedrez
- *@a: punterito
- * Return: 0
+/**
+ * print_chessboard - printea el tablero de ajderez
+ * @a: el tablero
  */
+
 void print_chessboard(char (*a)[8])
 {
-	for (int fila = 0; fila < 8; fila++)
+	int i, j;
+
+	i = j = 0;
+	while (i < 8)
 	{
-		for (int col = 0; col < 8; col++)
+		j = 0;
+		while (j < 8)
 		{
-			printf("%c ", a[fila][col]);
+			_putchar(a[i][j]);
+			j++;
 		}
-		printf("\n"); 
+		_putchar('\n');
+		i++;
 	}
-}
 
-int main()
-{
-	char tablero[8][8] = {
-        {'r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'},
-        {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
-        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
-        {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
-        {'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R'}
-
-	};
-
-       	return 0;
 }
