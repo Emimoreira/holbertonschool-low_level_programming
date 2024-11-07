@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- *main - main siu
+ *main - main contiene las variablesss
  *@argc: variablee
  *@argv: array
  *Return: 0
