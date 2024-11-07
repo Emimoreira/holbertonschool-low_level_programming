@@ -8,14 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc >= 1)
-       	{
-	printf("El nombre del programa es: %s\n", argv[0]);
-	}
-	else
-       	{
-	printf("Error: No se pudo obtener el nombre del programa.\n");
-	}
-    
-	return 0;
+	if (argc > 0) 
+	printf("%s\n", argv[0]);
+	return (0);
 }
