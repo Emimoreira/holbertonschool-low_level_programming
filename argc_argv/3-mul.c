@@ -15,10 +15,10 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 
-       	{
+	{
 
 	printf("Error\n");
-	return 1;
+	return (1);
 
 	}
 
@@ -27,5 +27,5 @@ int main(int argc, char *argv[])
 	 resultado = num1 * num2;
 
 	printf("%d\n", resultado);
-	return 0; 
+	return (0);
 }
