@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * create_array - Crea un array de caracteres y lo inicializa con un carácter específico.
  * @size: El tamaño del array a crear.
