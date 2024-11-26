@@ -2,8 +2,9 @@
 #include "function_pointers.h"
 /**
  * array_iterator - function to print name
- * @name: pointer of char type
- * @f: pointer to function
+ * @array: pointer of char type
+ * @size: pointer to function
+ * @action: accion
  * Return: Always successful
  */
 
