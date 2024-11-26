@@ -7,9 +7,17 @@
  * Return: Always successful
  */
 
-void print_name(char *name, void (*f)(char *))
+void array_iterator(int *array, size_t size, void (*action)(int));
 {
-	if (f == NULL)
+	site_t i;
+
+	if (array == NULL || ation == NULL)
+	{
 		return;
-	f(name);
+	}
+	for (1 = 0; i < size; i++)
+	{
+		action(array[i]);
+
+	}
 }
