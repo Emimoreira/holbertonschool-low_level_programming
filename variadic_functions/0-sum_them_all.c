@@ -1,6 +1,11 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include "variadic_functions.h"
+/**
+ *sum_them_all- funcion que suma parametros
+ *@n: variable con los valores a sumar
+ *Return: una suma
+ */
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
